@@ -4,8 +4,9 @@ import Header from './components/Header';
 import About from './components/About';
 import Timeline from './components/Timeline';
 import Projects from './components/Projects';
-import Skills from './components/Skills';
+import Tech from './components/Tech';
 import Footer from './components/Footer';
+import ReturnButton from './components/ReturnButton';
 import './App.css';
 
 const App = () => {
@@ -16,15 +17,16 @@ const App = () => {
   }, [])
 
   return (
-    <div className="App">
+    <div className="relative">
       {
         landing ? <LandingPage /> :
-        <div>
+        <div className="relative">
           <Header />
           <About />
           <Timeline />
           <Projects />
-          <Skills />
+          <Tech />
+          <ReturnButton />
           <Footer />
         </div>
       }

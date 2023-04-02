@@ -45,15 +45,15 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div id="projects" className="bg-white py-24 md:py-32 h-fit">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-5">
-        <div className="max-w-2xl xl:col-span-2">
-          <p className="text-base font-semibold leading-7 text-blue-600">Projects</p>
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A few of my projects.</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Here are a few projects I have done during Hack Reactor - and after.
-          </p>
-        </div>
+    <div id="projects" className="bg-white py-24 md:py-32 h-fit px-8 w-full mx-auto">
+      <div className="flex-colw-fit mx-auto text-center pb-10">
+        <p className="text-base font-semibold leading-7 text-blue-600">Projects</p>
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A few of my projects.</h2>
+        <p className="mt-6 text-lg leading-8 text-gray-600">
+              Here are a few projects I have done during Hack Reactor - and after.
+        </p>
+      </div>
+      <div className="mx-auto grid max-w-4xl grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <ul role="list" className="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
           {projects.map((project) => (
             <li key={project.name} className="flex flex-col gap-10 pt-12 sm:flex-row">

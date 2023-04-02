@@ -63,14 +63,14 @@ function classNames(...classes) {
 
 const Timeline = () => {
   return (
-    <div id="timeline" className="bg-neutral-900 py-24 sm:py-32 px-8 h-fit">
+    <div id="timeline" className="bg-neutral-900 py-24 sm:py-32 px-8 h-screen">
       <div className="max-w-4xl mx-auto pr-32">
         <p className="text-base font-semibold leading-7 text-blue-200">Timeline</p>
         <h1 className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-4xl mb-10">A little visual history.</h1>
         <ul role="list" className="mx-auto max-w-7xl px-6 lg:px-8">
           {timeline.map((event, eventIdx) => (
             <li key={event.id}>
-              <div className="relative pb-8">
+              <div className="relative pb-20">
                 {eventIdx !== timeline.length - 1 ? (
                   <span className="absolute left-4 top-4 -ml-px h-full w-0.5 bg-white-200" aria-hidden="true" />
                 ) : null}
