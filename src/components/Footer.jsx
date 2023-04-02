@@ -10,14 +10,8 @@ const actions = [
 const Footer = () => {
   return (
     <footer className="footer flex justify-center items-center p-4 bg-neutral-900 text-neutral-content">
-      <div className="grid-flow-col gap-16 md:place-self-center md:justify-self-end">
-        {
-          actions.map((icons) => {
-            return (
-              <a href={icons.url} target="_blank">{icons.icon}</a>
-            )
-          })
-        }
+      <div className="md:place-self-center md:justify-self-end">
+        <p>Thanks for stopping by! :D</p>
       </div>
     </footer>
   );

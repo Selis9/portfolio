@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Tech from './components/Tech';
 import Footer from './components/Footer';
 import ReturnButton from './components/ReturnButton';
+import SocialMedia from './components/SocialMedia';
 import './App.css';
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
           <Projects />
           <Tech />
           <ReturnButton />
+          <SocialMedia />
           <Footer />
         </div>
       }
