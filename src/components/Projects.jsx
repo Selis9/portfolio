@@ -57,7 +57,7 @@ const Projects = () => {
         <ul role="list" className="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
           {projects.map((project) => (
             <li key={project.name} className="flex flex-col gap-10 pt-12 sm:flex-row">
-              <img className="aspect-[4/5] w-64 flex-none rounded-1xl object-cover border-2" src={project.imageUrl} alt="" />
+              <img className="aspect-[5/6] w-80 flex-none rounded-1xl object-cover border-2" src={project.imageUrl} alt="" />
               <div className="max-w-xl flex-auto">
                 <h3 className="text-lg font-semibold leading-8 tracking-tight text-orange-700">{project.name}</h3>
                 <p className="text-base leading-7 text-black">{project.techstack}</p>

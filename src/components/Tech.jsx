@@ -32,7 +32,7 @@ const Tech = () => {
     <div id="tech" className="bg-neutral-900 py-24 sm:py-32 h-fit px-8">
         <div className="mx-auto w-max pb-10">
           <p className="text-base font-semibold leading-7 text-blue-600 text-center">Tech</p>
-          <h2 className="text-2xl font-bold tracking-tight text-white sm:text-2xl">Some of the tech that I have experience with.</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-white sm:text-2xl">Tech I have experience with.</h2>
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="-mx-6 grid gap-0.5 overflow-hidden sm:mx-0 sm:rounded-1xl md:grid-cols-3">

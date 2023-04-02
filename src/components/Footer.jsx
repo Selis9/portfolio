@@ -9,11 +9,8 @@ const actions = [
 
 const Footer = () => {
   return (
-    <footer className="footer items-center p-4 bg-neutral-900 text-neutral-content">
-      <div className="items-center grid-flow-col">
-        <p>Copyright © 2023 - All right reserved</p>
-      </div>
-      <div className="grid-flow-col gap-6 md:place-self-center md:justify-self-end">
+    <footer className="footer flex justify-center items-center p-4 bg-neutral-900 text-neutral-content">
+      <div className="grid-flow-col gap-16 md:place-self-center md:justify-self-end">
         {
           actions.map((icons) => {
             return (

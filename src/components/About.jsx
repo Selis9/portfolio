@@ -9,14 +9,14 @@ const About = () => {
         </p>
         <div className="mt-10 max-w-3xl">
           <p className="mt-8">
-          My interest in technology began during the internet boom of the early 2000s. While growing up, I originally had a passion for the creative arts but I found myself drawn toward the tech industry as I learned how to build and troubleshoot computers, create websites using basic html/css (on myspace, xanga, geosites etc...), and played around with creating private servers of various MMORPGs.
+          My interest in technology began during the internet boom of the early 2000s. While growing up, I originally had a passion for the creative arts but I found myself drawn toward the tech industry as I learned how to build and troubleshoot computers, create websites using basic html/css (on old myspace, xanga, geocities etc...), and played around with creating private servers of various MMORPGs.
           </p>
 
           <p className="mt-8">
-          Upon entering the workforce after college with an Information Systems degree and a specailization in application development, I had the opportunity to learn, integrate, and manage business systems, which I took over me as it was a lot of fun. Overtime, my interest for software development continued to call me back. After developing an internal FAQ page using HTML/CSS/Javascript, I realized how much I really enjoyed the process of software development compared to the infrastructure side of IT.
+          Upon entering the workforce after college with an Information Systems degree and a specailization in application development, I had the opportunity to learn, integrate, and manage business systems at a start up, which took over me as it was a lot of fun. After developing an internal FAQ page using HTML/CSS/Javascript, It made me realize how much I really enjoyed the process of software development compared to the infrastructure side of IT, and I wished to continue pursuing it.
           </p>
           <p  className="mt-8">
-          This experience led me to leave my role as an IT Manager and enroll in a Software Engineering Bootcamp to focus on programming entirely. I appreciate the ability to create something beautiful and useful through programming, and it gives me the same feeling of fulfillment that art does, especially with front-end work. My artistic hobbies remain a personal interest, but programming has become my primary career focus because of the joy it brings me to create something new and useful.
+          This experience led me to start studying after hours, which then led me to leave my role as an IT Manager and enroll in a Software Engineering Bootcamp to focus on it entirely. I appreciate the ability to create something beautiful and useful through web and application development, and it gives me the same feeling of fulfillment that art does, especially with front-end work. My artistic hobbies remain a personal interest, but development has become my primary career focus because of the joy it brings me to create something new and useful.
           </p>
 
           <p  className="mt-8">
