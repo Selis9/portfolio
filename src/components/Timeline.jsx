@@ -63,7 +63,7 @@ function classNames(...classes) {
 
 const Timeline = () => {
   return (
-    <div id="timeline" className="bg-neutral-900 py-24 sm:py-32 px-8 h-screen">
+    <div id="timeline" className="bg-neutral-900 py-24 sm:py-32 px-8 h-fit">
       <div className="max-w-4xl mx-auto pr-32">
         <p className="text-base font-semibold leading-7 text-blue-200">Timeline</p>
         <h1 className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-4xl mb-10">A little visual history.</h1>
