@@ -9,7 +9,7 @@ const actions = [
 
 const SocialMedia = () => {
   return (
-    <div className="fixed bottom-16 left-10 rounded-full bg-orange-200 z-50 justify-center p-2"
+    <div className="fixed bottom-16 left-10 rounded-md bg-orange-200 z-50 justify-center p-2"
     >
       <div className="flex-row justify-around">
         {

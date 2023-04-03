@@ -32,7 +32,7 @@ const projects = [
     techstack: 'HTML, CSS, Javascript, React, Node, Express, React Native, PostgreSQL, Firebase',
     imageUrl: GameStart,
     info: 'Project consisting of 6 team members to build a fullstack game trading app built with React Native, Express, Node, and PostgreSQL. The app allows users to post/send trades with other users, has a built in messaging feature, and includes a map feature to show nearby traders (similar to rideshare services). Connected to gaming API for full details and photos.',
-    githubURL: 'https://github.com/rfp2207boyz2men/frontendcapstone',
+    githubURL: 'https://github.com/HouseHufflepuff/GameStart',
   },
   {
     name: 'tellafriend.io',
